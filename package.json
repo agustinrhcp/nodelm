@@ -1,0 +1,12 @@
+{
+  "name": "nodelm",
+  "version": "1.0.0",
+  "description": "Node & Elm",
+  "main": "index.js",
+  "scripts": {
+    "start": "elm make src/Main.elm --output dist/elm.js && node src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {}
+}
